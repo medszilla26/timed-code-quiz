@@ -1,8 +1,22 @@
+/* Google Font Used: font-family: 'Exo 2', sans-serif;*/
+
+.question-text {
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 25px;
+  font-family: "Exo 2";
+}
+
 button {
   width: 50%;
   margin: 8px;
   padding: 10px 20px;
   display: inline-block;
+  text-align: left;
+  font-size: large;
+  font-family: "Exo 2";
+  font-weight: normal;
   border-radius: 15px 50px 30px;
   background-color: #11cbd7;
+  color: aliceblue;
 }
