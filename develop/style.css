@@ -1,0 +1,8 @@
+button {
+  width: 50%;
+  margin: 8px;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 15px 50px 30px;
+  background-color: #11cbd7;
+}
