@@ -45,4 +45,6 @@ body {
 }
 .start-btn {
   text-align: center;
+  width: 35%;
+  margin-left: 200px;
 }
