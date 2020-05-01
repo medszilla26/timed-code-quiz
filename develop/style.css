@@ -1,22 +1,45 @@
 /* Google Font Used: font-family: 'Exo 2', sans-serif;*/
-
-.question-text {
-  padding: 10px 20px;
-  text-align: left;
-  font-size: 25px;
-  font-family: "Exo 2";
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  background: rgb(240, 255, 243);
+  background: linear-gradient(
+    340deg,
+    rgba(240, 255, 243, 1) 19%,
+    rgba(198, 241, 231, 1) 100%
+  );
 }
 
-button {
-  width: 50%;
-  margin: 8px;
+.question-text {
+  padding: 70px 0px;
+  text-align: left;
+  font-size: 25px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.btn {
+  width: 80%;
+  margin: 6px 0;
   padding: 10px 20px;
-  display: inline-block;
   text-align: left;
   font-size: large;
-  font-family: "Exo 2";
-  font-weight: normal;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 300;
   border-radius: 15px 50px 30px;
   background-color: #11cbd7;
-  color: aliceblue;
+  border-color: #11cbd7;
+  color: black;
+  box-shadow: 0px 10px 14px -7px #276873;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #069097;
+  border-color: #069097;
+}
+.start-btn {
+  text-align: center;
 }
