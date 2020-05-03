@@ -12,21 +12,25 @@
     <title>Code Quiz</title>
   </head>
   <body>
-    <div>Click Start to begin quiz</div>
+   
     <div class="container">
-      <div id="trivia-container">
-        <div id="question-section" class="question-text">
+      <div id="counter">0</div>
+        <div id="trivia-container">
+        <div id="question" class="question-text">
           What is the meaning of life?
         </div>
+         <div id="intro">Click Start to begin quiz</div>
         <div class="btn-group">
-          <button class="btn">Option 1</button>
-          <button class="btn">Option 2</button>
-          <button class="btn">Option 3</button>
-          <button class="btn">Option 4</button>
+          <button class="option-btn" id="A" onclick ="checkAnswer('A')">Option A</button>
+          <button class="option-btn" id="B" onclick ="checkAnswer('B')">Option B</button>
+          <button class="option-btn" id="C" onclick ="checkAnswer('C')">Option C</button>
+          <button class="option-btn" id="D" onclick ="checkAnswer('D')">Option D</button>
         </div>
       </div>
       <div class="navigation-buttons">
-        <button class="start-btn btn">Start</button>
+        <button class="start-btn option-btn">Start</button>
+        
+        
      
     </div>
   </body>
