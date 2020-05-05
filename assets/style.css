@@ -10,10 +10,14 @@ body {
   justify-content: center;
   display: flex;
 }
-
+p {
+  font-family: "Nunito";
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+}
 .container {
   font-family: "Nunito", sans-serif;
-
   width: 500px;
   max-width: 80%;
   background-color: ghostwhite;

@@ -7,6 +7,10 @@ const choiceC = document.getElementById("C");
 const choiceD = document.getElementById("D");
 const scoreDiv = document.getElementById("score");
 
+function storageAvailable(type) {
+  var s;
+}
+
 const counter = document.getElementById("counter");
 
 start.addEventListener("click", startQuiz);
@@ -105,5 +109,6 @@ function checkAnswer(answer) {
 function showScore() {
   scoreDiv.style.display = "block";
   const scoreNumber = Math.round((100 * score) / questions.length);
-  scoreDiv.innerHTML += "<p>" + scoreNumber + "</p>";
+  scoreDiv.innerHTML += "<p>" + "your score is: " + scoreNumber + "</p>";
+  clearInterval(Timer);
 }
